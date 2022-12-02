@@ -1,0 +1,94 @@
+#include <stdio.h>
+int main()
+{
+	int row,col,ui;
+	char output='*';
+	scanf("%d",&ui);
+	for( row=0;row<ui;row++)
+	{
+		for ()
+		for (col=0;col<ui-row;col++)
+		{
+			printf("%c",output);  
+		}
+		printf("\n");
+	}
+		
+		return 0;
+}
+
+
+
+#include<stdio.h>
+
+int main()
+{
+	int row,num,col=0;
+	char output='*';
+	printf("soyle: ");
+	scanf("%d",&row);
+	for(row>0; row!=0;row--)
+	{
+		for (row>col;col!=row;col++)
+		{
+			printf("%c",output);  
+		}
+	}
+		printf("\n");
+		return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+	int row,col,ui;
+	char output='*';
+	scanf("%d",&ui);
+	for( row=0;row<ui;row++)
+	{
+		for (col=0;col<row+1;col++)
+		{
+			printf("%c",output);  
+		}
+		printf("\n");
+	}
+		
+		return 0;
+}
+
+
+#include <stdio.h>
+int main()
+{
+	int row,col,ui,space;
+	char output='*';
+	scanf("%d",&ui);
+	for( row=0;row<ui;row++)
+	{
+		for (col=0;col<ui-row;col++)
+		{
+			for (space=0;space!=ui;space++)
+			{
+				printf(" ");
+			}
+			printf("%c",output);  
+		}
+		printf("\n");
+	}
+		
+		return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+	int row,col=0;
+	char output='*';
+	for(row=5;row!=col;col++)
+	{
+		for(col>0;col<row-1;row--){
+			printf("%c",output);  
+		}
+		printf("\n");
+	}
+}
